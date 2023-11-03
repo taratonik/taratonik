@@ -1,0 +1,17 @@
+import random
+
+dictionary = {
+    "CRINGE": "Garip ya da utandırıcı bir şey",
+    "LOL": "Komik bir şeye verilen cevap",
+    "ROFL":"Bir şakaya karşlık cevap",
+    "CREEPY":"Korkunç",
+    "SHEESH":"onaylamamak",
+    "AGGRO":"agresifleşmek/sinirlenmek"
+}
+
+
+word = input("Anlamadığınız bir kelime yazın(LOL/ROFL/CRİNGE/SHEESH/CREEPY/AGGRO)(hepsini büyük harflerle yazın!")
+if word in dictionary.keys():
+    print(dictionary[word])
+else:
+    print("Böyle bi kelime bulunmamaktadır.")
